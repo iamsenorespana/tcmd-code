@@ -1,0 +1,164 @@
+Logfile initialized
+[INFO] logfile = /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build.log
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/builder.py simulator Lab330 /android-sdk /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330 com.appcelerator.lab330 6 WVGA854 
+[INFO] Building Lab330 for Android ... one moment
+[INFO] Titanium SDK version: 1.8.0 (09/15/11 13:33 7bb8677...)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.012244 seconds on emulator to get ready
+[DEBUG] com.appcelerator.lab330 installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying project resources..
+[INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/appicon.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/appicon.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/Default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/Default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-long-land-hdpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-long-land-hdpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-long-land-ldpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-long-land-ldpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-long-port-hdpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-long-port-hdpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-long-port-ldpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-long-port-ldpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-notlong-land-hdpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-notlong-land-hdpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-notlong-land-ldpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-notlong-land-ldpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-notlong-land-mdpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-notlong-land-mdpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-notlong-port-hdpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-notlong-port-hdpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-notlong-port-ldpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-notlong-port-ldpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/android/images-save/res-notlong-port-mdpi/default.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images-save/res-notlong-port-mdpi/default.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/app.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/app.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/burglar.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/burglar.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/html/addForm.html => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/html/addForm.html
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/add.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/add.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/arrow.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/arrow.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/back.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/back.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/button_off.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/button_off.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/button_on.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/button_on.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/captured_off.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/captured_off.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/captured_on.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/captured_on.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/detail_bg.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/detail_bg.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/fugitives_off.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/fugitives_off.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/fugitives_on.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/fugitives_on.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/grain.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/grain.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/navbar.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/navbar.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/placeholder.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/placeholder.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/placeholder_small.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/placeholder_small.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/row_down.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/row_down.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/row_up.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/row_up.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/tab.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/tab.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/tab_bg.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/tab_bg.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/images/target.png => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/images/target.png
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/AddWindow.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/AddWindow.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/common/db.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/common/db.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/common/network.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/common/network.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/common/ui.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/common/ui.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/DetailWindow.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/DetailWindow.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/FugitiveTableView.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/FugitiveTableView.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/HomeWindow.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/HomeWindow.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/app/model/Fugitive.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/app/model/Fugitive.js
+[TRACE] COPYING CREATED FILE: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/Resources/js/lib/require_once.js => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/js/lib/require_once.js
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[DEBUG] app stylesheet => /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/ApplicationStylesheet.java
+[DEBUG] copying app icon: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found splash screen at /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/ApplicationStylesheet.java to javac build list
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/Lab330Activity.java to javac build list
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/Lab330AppInfo.java to javac build list
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/Lab330Application.java to javac build list
+[DEBUG] adding /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/R.java to javac build list
+[DEBUG] Building Java Sources: "/Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/ApplicationStylesheet.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/Lab330Activity.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/Lab330AppInfo.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/Lab330Application.java" "/Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/gen/com/appcelerator/lab330/R.java"
+[INFO] Waiting for SDCard to become available..
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab330/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/html/addForm.html
+[DEBUG] from resource zip => assets/Resources/images/add.png
+[DEBUG] from resource zip => assets/Resources/images/arrow.png
+[DEBUG] from resource zip => assets/Resources/images/back.png
+[DEBUG] from resource zip => assets/Resources/images/button_off.png
+[DEBUG] from resource zip => assets/Resources/images/button_on.png
+[DEBUG] from resource zip => assets/Resources/images/captured_off.png
+[DEBUG] from resource zip => assets/Resources/images/captured_on.png
+[DEBUG] from resource zip => assets/Resources/images/detail_bg.png
+[DEBUG] from resource zip => assets/Resources/images/fugitives_off.png
+[DEBUG] from resource zip => assets/Resources/images/fugitives_on.png
+[DEBUG] from resource zip => assets/Resources/images/grain.png
+[DEBUG] from resource zip => assets/Resources/images/navbar.png
+[DEBUG] from resource zip => assets/Resources/images/placeholder.png
+[DEBUG] from resource zip => assets/Resources/images/placeholder_small.png
+[DEBUG] from resource zip => assets/Resources/images/row_down.png
+[DEBUG] from resource zip => assets/Resources/images/row_up.png
+[DEBUG] from resource zip => assets/Resources/images/tab.png
+[DEBUG] from resource zip => assets/Resources/images/tab_bg.png
+[DEBUG] from resource zip => assets/Resources/images/target.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-long-land-hdpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-long-land-ldpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-long-port-hdpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-long-port-ldpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-notlong-land-hdpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-notlong-land-ldpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-notlong-land-mdpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-notlong-port-hdpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-notlong-port-ldpi/default.png
+[DEBUG] from resource zip => assets/Resources/images-save/res-notlong-port-mdpi/default.png
+[DEBUG] from resource zip => assets/Resources/js/app/common/db.js
+[DEBUG] from resource zip => assets/Resources/js/app/common/network.js
+[DEBUG] from resource zip => assets/Resources/js/app/common/ui.js
+[DEBUG] from resource zip => assets/Resources/js/app/model/Fugitive.js
+[DEBUG] from resource zip => assets/Resources/js/app/AddWindow.js
+[DEBUG] from resource zip => assets/Resources/js/app/DetailWindow.js
+[DEBUG] from resource zip => assets/Resources/js/app/FugitiveTableView.js
+[DEBUG] from resource zip => assets/Resources/js/app/HomeWindow.js
+[DEBUG] from resource zip => assets/Resources/js/lib/require_once.js
+[DEBUG] from resource zip => assets/Resources/Default.png
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/burglar.png
+[DEBUG] from resource zip => assets/tiapp.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/facebook_icon.png
+[DEBUG] from resource zip => res/drawable/facebook_login.png
+[DEBUG] from resource zip => res/drawable/facebook_login_down.png
+[DEBUG] from resource zip => res/drawable/facebook_login_wide.png
+[DEBUG] from resource zip => res/drawable/facebook_login_wide_down.png
+[DEBUG] from resource zip => res/drawable/facebook_logout.png
+[DEBUG] from resource zip => res/drawable/facebook_logout_down.png
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-hdpi/facebook_icon.png
+[DEBUG] from resource zip => res/drawable-ldpi/facebook_icon.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/modules/titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/modules/titanium-yahoo.jar => ti/modules/titanium/yahoo/yahoo.js
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/smalljs.jar => org/mozilla/javascript/resources/Messages.properties
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.8.0.v20110915133349/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.009098 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Launching application ... Lab330
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appcelerator.lab330/.Lab330Activity }
+
+[INFO] Deployed Lab330 ... Application should be running.
+[INFO] Android Emulator has exited

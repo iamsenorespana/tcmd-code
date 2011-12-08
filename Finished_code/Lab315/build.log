@@ -1,0 +1,13 @@
+Logfile initialized
+[INFO] logfile = /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab315/build.log
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.7.3/android/builder.py simulator Lab315 /android-sdk /Users/tpoulsen/Documents/Titanium Studio Workspace/Lab315 com.appcelerator.lab315 6 WVGA854 
+[INFO] Building Lab315 for Android ... one moment
+[INFO] Titanium SDK version: 1.7.3 (10/17/11 13:44 dcf4257)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[ERROR] Timed out waiting for emulator to be ready, you may need to close the emulator and try again

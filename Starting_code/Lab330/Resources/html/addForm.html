@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Add a fugitive</title>
+		<style type="text/css">
+			h3 {color:#fff;font-weight:bold;}
+			input { height: 40px; width:90%; margin-bottom: 5px;}
+			textarea { margin-bottom: 5px; }
+		</style>
+		<script type="text/javascript">
+		function send() {
+			// add the necessary code to forward the data to the native Ti wrapper
+			// it should pass variables: name, heightFeet, heightInches, and description as an object
+		};
+		</script>
+	</head>
+	<body style="background:url(../images/grain.png);height:100%;width:100%;">
+		<div>
+			<!-- show "Full name" as the hint text -->
+			<input type="text" id="name"/>
+		</div>
+		<div>
+			<!-- alter to display the numeric keyboard on focus and show "Height (feet)" as the hint text  -->
+			<input type="text" id="heightFeet"/>
+		</div>
+		<div>
+			<!-- alter to display the numeric keyboard on focus and show "Height (inches)" as the hint text -->
+			<input type="text" id="heightInches"/>
+		</div>
+		<div>
+			<!-- show "Description" as the hint text -->
+			<textarea id="description" style="width:300px;height:200px;"></textarea>
+		</div>
+		<div>
+			<input type="submit" value="Save" onclick="send();"/>
+		</div>
+	</body>
+</html>
