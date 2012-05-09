@@ -20,13 +20,13 @@ var ot = {};
 	ot.ui.lblArtist = Ti.UI.createLabel({
 			text: 'Bob Dylan',
 			width: 320,
-			height: 'auto',
+			height: Ti.UI.SIZE,
 			top: 260,
 			textAlign: 'center',
 			font: {fontSize: 22, fontFamily: 'AmericanTypewriter-Bold'}
 		});
 		
-	ot.ui.audioContols = Ti.UI.createView({
+	ot.ui.audioControls = Ti.UI.createView({
 		backgroundColor: '#333',
 		backgroundImage: ot.model.img[0],
 		width: 240,
@@ -57,7 +57,7 @@ var ot = {};
 	
 		win.add(ot.ui.lblArtist);
 		win.add(ot.ui.additionalCopy);
-		win.add(ot.ui.audioContols);
+		win.add(ot.ui.audioControls);
 		
 		return win;
 	}

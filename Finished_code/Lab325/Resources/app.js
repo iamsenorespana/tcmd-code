@@ -20,13 +20,13 @@ var ot = {};
 	ot.ui.lblArtist = Ti.UI.createLabel({
 			text: 'Bob Dylan',
 			width: 320,
-			height: 'auto',
+			height: Ti.UI.SIZE,
 			top: 260,
 			textAlign: 'center',
 			font: {fontSize: 22, fontFamily: 'AmericanTypewriter-Bold'}
 		});
 		
-	ot.ui.audioContols = Ti.UI.createView({
+	ot.ui.audioControls = Ti.UI.createView({
 		backgroundColor: '#333',
 		backgroundImage: ot.model.img[0],
 		width: 240,
@@ -48,50 +48,37 @@ var ot = {};
 	})
 	
 	
-	ot.controller.isLandscape = function(o) {
-		o = o || Ti.UI.orientation;
-		// return TRUE if either landscape left or right
-		return o == Ti.UI.LANDSCAPE_LEFT || o == Ti.UI.LANDSCAPE_RIGHT;
-	}
-	
-	ot.controller.isPortrait = function(o) {
-		o = o || Ti.UI.orientation;
-		// return TRUE if either portrait upright or upside-down
-		return o == Ti.UI.PORTRAIT || o == Ti.UI.UPSIDE_PORTRAIT;
-	}
-	
 	Ti.Gesture.addEventListener('shake', function(e) {
 		num = Math.floor(Math.random()*3);
-		ot.ui.audioContols.backgroundImage = ot.model.img[num];
+		ot.ui.audioControls.backgroundImage = ot.model.img[num];
 	});
 	
 	
 	Ti.Gesture.addEventListener('orientationchange', function(e) {
-		if (ot.controller.isLandscape(e.orientation)) {
+		if (e.source.isLandscape()) {
 			Ti.API.info('landscape');
 			
-			ot.ui.lblArtist.left= 250;
-			ot.ui.lblArtist.top = 240;
-			
-			ot.ui.audioContols.left = 10;
-			ot.ui.audioContols.top = null;
-			
-			ot.ui.additionalCopy.left = 260;
-			ot.ui.additionalCopy.bottom = 20;
-			ot.ui.additionalCopy.width = 200;
+			ot.ui.lblArtist.updateLayout({
+				top:240, left: 250
+			});
+			ot.ui.audioControls.updateLayout({
+				top: null, left: 10
+			});
+			ot.ui.additionalCopy.updateLayout({
+				left: 260, bottom: 20, width: 200
+			});
 		} else {
 			Ti.API.info('portrait');
 			
-			ot.ui.lblArtist.left= null;
-			ot.ui.lblArtist.top = 260;
-			
-			ot.ui.audioContols.left = null;
-			ot.ui.audioContols.top = 10;
-			
-			ot.ui.additionalCopy.left = null;
-			ot.ui.additionalCopy.bottom = 10;
-			ot.ui.additionalCopy.width = 240;
-			
+			ot.ui.lblArtist.updateLayout({
+				top:260, left: null
+			});
+			ot.ui.audioControls.updateLayout({
+				top: 10, left: null
+			});
+			ot.ui.additionalCopy.updateLayout({
+				left: null, bottom: 10, width: 240
+			});
 		}
 		Ti.API.info('changed');
 	});
@@ -111,7 +98,7 @@ var ot = {};
 	
 		win.add(ot.ui.lblArtist);
 		win.add(ot.ui.additionalCopy);
-		win.add(ot.ui.audioContols);
+		win.add(ot.ui.audioControls);
 		
 		return win;
 	}
