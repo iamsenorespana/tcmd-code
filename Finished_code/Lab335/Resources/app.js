@@ -55,6 +55,7 @@ var sv = {};
 			color:'#000',
 			text:fullName,
 			left:5,
+			top:0,
 			player:imageFileName			
 		});
 		return label;
