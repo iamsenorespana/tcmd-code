@@ -15,20 +15,19 @@ var tv = {};
 		win.add(pageHeading);
 		
 		/**
-		  * Write a function named makeRow() that will create and return a table row.
+		  * Create a CommonJS module that will create and return a table row.
 		  * Each row should have two image and two labels per the lab instructions
 		  * Your images will need custom properties so that you can distinguish which received
 		  * the click event and swap images accordingly
 		  * 
-		  * makeRow()
 		  * 	@param {Object} _params   Map of row parameters: rownum, primarylabel, secondarylabel, myImage
 		  * 	@return {Object}    Returns the row.
+		  * Then, require in the module
 		  */		
-		var makeRow = function() {};
 		
 		// declare an array to hold your table rows
 		var tbldata = [];
-		// use a loop to create at least 8 rows
+		// use a loop to create at least 8 rows, instantiate a new custom row in each iteration
 
 		// define the tableview and assign its data/rows here
 		var table = Ti.UI.createTableView();
