@@ -33,9 +33,5 @@ test1.build = function() {
 	test1win.add(table);
 	test1win.rightNavButton = close;
 	
-	test1win.addEventListener('close', function(){
-		Ti.App.removeEventListener('bad:idea', doSomething);
-	})
-	
 	test1win.open({ modal: true });
 };

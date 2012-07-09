@@ -2,7 +2,7 @@ var test1 = {};
 
 test1.build = function() {
 	var test1win = Ti.UI.createWindow({ title: 'Test 1 Win' }),
-		table 	 = Ti.UI.createTableView({ top: 50, backgroundColor: '#fff' }),
+		table 	 = Ti.UI.createTableView({ top: 50 }),
 		label 	 = Ti.UI.createLabel({ text: 'Some Label', color: '#eee', width: 100, height: 20, top: 15 }),
 		close	 = Ti.UI.createButton({ title: 'Close' });
 	
@@ -22,8 +22,11 @@ test1.build = function() {
 	
 	function doSomething(_event) {
 		Ti.API.info('event fired');
+/*
+		// removing these doesn't fix the leak
 		table.setData(_event.data);
 		label.text = _event.label;
+*/
 	}
 	// adding this event listener causes a memory leak
 	// as references remain valid after build() finishes
@@ -33,9 +36,12 @@ test1.build = function() {
 	test1win.add(table);
 	test1win.rightNavButton = close;
 	
-	test1win.addEventListener('close', function(){
+/*
+	// removing the event listener does
+	test1win.addEventListener('close', function() {
 		Ti.App.removeEventListener('bad:idea', doSomething);
-	})
+	});
+*/
 	
 	test1win.open({ modal: true });
 };
