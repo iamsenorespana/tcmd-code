@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
+    <sdk-version>2.1.0.GA</sdk-version>
     <deployment-targets>
         <target device="mobileweb">false</target>
         <target device="iphone">false</target>
@@ -34,13 +34,6 @@
 			<orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
 		</orientations>
 	</iphone>
-	<android xmlns:android="http://schemas.android.com/apk/res/android">
-	    <tool-api-level>10</tool-api-level>
-	    <manifest android:installLocation="preferExternal">
-			<uses-sdk android:minSdkVersion="7" />
-			<supports-screens android:anyDensity="false"/>
-	    </manifest>
-	</android>
-	<modules>
-	</modules>
+	<android xmlns:android="http://schemas.android.com/apk/res/android"/>
+	<modules/>
 </ti:app>

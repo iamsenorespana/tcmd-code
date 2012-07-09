@@ -62,7 +62,7 @@ var tv = {};
 			height:'85%',
 			top:45,
 			backgroundColor:'transparent',
-			separatorStyle:Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+			separatorStyle:(Ti.Platform.osname=='iphone') ? Titanium.UI.iPhone.TableViewSeparatorStyle.NONE : null
 		});
 		
 		table.setData(tbldata);

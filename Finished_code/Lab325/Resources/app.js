@@ -48,10 +48,13 @@ var ot = {};
 	})
 	
 	
-	Ti.Gesture.addEventListener('shake', function(e) {
-		num = Math.floor(Math.random()*3);
-		ot.ui.audioControls.backgroundImage = ot.model.img[num];
-	});
+	if(Ti.Platform.osname != 'android') {
+		// with 2.1GA, adding the shake event causes the app to hang on Android, removed for now
+		Ti.Gesture.addEventListener('shake', function(e) {
+			num = Math.floor(Math.random()*3);
+			ot.ui.audioControls.backgroundImage = ot.model.img[num];
+		});
+	}	
 	
 	
 	Ti.Gesture.addEventListener('orientationchange', function(e) {

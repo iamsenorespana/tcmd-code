@@ -1,4 +1,6 @@
-var win = Ti.UI.createWindow();
+var win = Ti.UI.createWindow({
+	backgroundColor:'white'
+});
 
 // require our custom headerview component library
 var headerview = require('headerview');
