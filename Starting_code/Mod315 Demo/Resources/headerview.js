@@ -2,11 +2,11 @@ exports.newHV = function(title) {
 	// our custom UI component is built from a Ti.UI.View
 	var v = Ti.UI.createView({
 		backgroundColor:'#B32D00',
-		height:40,
-		top:0
+		height:40, width: Ti.UI.FILL,
+		top:0, left: 0
 	});
 	var titleLabel = Ti.UI.createLabel({
-		left:0,
+		left:0, top: 0,
 		width:'100%',
 		text: title,
 		color: 'white',
@@ -28,8 +28,6 @@ exports.newHV = function(title) {
 				duration:500
 			});
 		});
-		titleLabel.text = title;
-		v.fireEvent('titleUpdated', {message:'Title updated'});
 	};
 	return v;
 }
