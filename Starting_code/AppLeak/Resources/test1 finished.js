@@ -1,6 +1,6 @@
-var test1 = {};
 
-test1.build = function() {
+
+exports.build = function() {
 	var test1win = Ti.UI.createWindow({ title: 'Test 1 Win' }),
 		table 	 = Ti.UI.createTableView({ top: 50 }),
 		label 	 = Ti.UI.createLabel({ text: 'Some Label', color: '#eee', width: 100, height: 20, top: 15 }),

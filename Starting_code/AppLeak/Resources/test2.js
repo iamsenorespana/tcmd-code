@@ -1,7 +1,5 @@
-var test2 = {};
 
-(function() {
-	test2.build = function() {
+	exports.build = function() {
 		test2.win = Ti.UI.createWindow({ title: 'Test 2 Win' });
 		test2.table = Ti.UI.createTableView({ top: 50 });
 		test2.label = Ti.UI.createLabel({ text: 'Some Label', color: '#eee', width: 100, height: 20, top: 15 });
@@ -31,4 +29,3 @@ var test2 = {};
 		
 		test2.win.open({ modal: true });	
 	};
-})();
