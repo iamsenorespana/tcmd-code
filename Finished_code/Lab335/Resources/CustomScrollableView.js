@@ -1,5 +1,7 @@
 var CustomScrollableView = function() {
-	// declare three ImageView objects to show the images/harmon1.jpg, harmon2.jpg, and harmon3.jpg images
+	
+	// declare three ImageView objects to show 
+	// the images/harmon1.jpg, harmon2.jpg, and harmon3.jpg images
 	var v1 = Ti.UI.createImageView({
 		image:'images/harmon1.jpg'
 	});
@@ -9,7 +11,9 @@ var CustomScrollableView = function() {
 	var v3 = Ti.UI.createImageView({
 		image:'images/harmon3.jpg'
 	});
-	// declare your scrollable view and set its views
+	
+	// declare your scrollable view and set its views to be the images
+	// should fill the height of its parents
 	var scrollableview = Titanium.UI.createScrollableView({
 		top:0,
 		height:Ti.UI.FILL,
@@ -33,6 +37,8 @@ var CustomScrollableView = function() {
 		updateSVImages(e.images);
 		scrollableview.scrollToView(0);
 	});
+	
+	// don't forget to return your scrollableview
 	return scrollableview;
 };
 

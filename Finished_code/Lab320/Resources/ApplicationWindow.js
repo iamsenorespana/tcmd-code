@@ -8,18 +8,18 @@ function ApplicationWindow(){
 			backgroundImage:'images/gradientBackground.png'
 		});
 		
-		// define the custom page heading here
-		pageHeading = Ti.UI.createLabel({
-			text: 'Custom Table',
-			color:'#3E3F87',
-			font:{
-				fontSize:18,
-				fontWeight:'bold'
-			},
-			top:1,
-			left:10,
-			height:35
-		});
+			// define the custom page heading here
+			pageHeading = Ti.UI.createLabel({
+				text: 'Custom Table',
+				color:'#3E3F87',
+				font:{
+					fontSize:18,
+					fontWeight:'bold'
+				},
+				top:1,
+				left:10,
+				height:35
+			});
 		win.add(pageHeading);
 		
 		/**
@@ -37,32 +37,33 @@ function ApplicationWindow(){
 		
 		// declare an array to hold your table rows
 		tbldata = [];
-		// use a loop to create at least 8 rows, instantiate a new custom row in each iteration
-		for(var i=0;i<8;i++) {
-			tbldata.push(new CustomRow({
-				rownum: i,
-				primarylabel: 'This is row '+i,
-				secondarylabel: 'Subtitle '+i,
-				myImage:(i % 2 === 0) ? 'a' : 'b'
-			}));
-		}
-		tbldata.push(new CustomRow({
-			rownum: 'last',
-			primarylabel: 'This is the last row',
-			secondarylabel: 'The last subtitle',
-			myImage:'c'
-		}));
-
-		// define the tableview and assign its data/rows here
-		table = Ti.UI.createTableView({
-			width:'90%',
-			height:'85%',
-			top:45,
-			backgroundColor:'transparent',
-			separatorStyle:(Ti.Platform.osname=='iphone') ? Titanium.UI.iPhone.TableViewSeparatorStyle.NONE : null
-		});
 		
-		table.setData(tbldata);
+		// use a loop to create at least 8 rows, instantiate a new custom row in each iteration
+			for(var i=0;i<8;i++) {
+				tbldata.push(new CustomRow({
+					rownum: i,
+					primarylabel: 'This is row '+i,
+					secondarylabel: 'Subtitle '+i,
+					myImage:(i % 2 === 0) ? 'a' : 'b'
+				}));
+			}
+			tbldata.push(new CustomRow({
+				rownum: 'last',
+				primarylabel: 'This is the last row',
+				secondarylabel: 'The last subtitle',
+				myImage:'c'
+			}));
+
+			// define the tableview and assign its data/rows here
+			table = Ti.UI.createTableView({
+				width:'90%',
+				height:'85%',
+				top:45,
+				backgroundColor:'transparent',
+				separatorStyle:(Ti.Platform.osname=='iphone') ? Titanium.UI.iPhone.TableViewSeparatorStyle.NONE : null
+			});
+			
+			table.setData(tbldata);
 		win.add(table);
 
 		// set the click event listener
