@@ -1,9 +1,8 @@
-var an = {}; // namespace an=animation
 
-(function() {
-	an.ui = {};
-	
-	an.ui.createApplicationWindow = function(){
+function ApplicationWindow(){
+		
+		var isAndroid = ( Ti.Platform.osname === 'android' )? true : false;
+		
 		// we've laid out most of the UI for you; here's the window
 		var win = Ti.UI.createWindow({
 			backgroundColor:'#fff'
@@ -96,28 +95,44 @@ var an = {}; // namespace an=animation
 		// for even-numbered clicks, box3 transitions into view using the flip-from-left style
 		// this effect will work on only iOS
 		container.addEventListener('click', function(){
-			if (selectedIndex%2 == 0) {
-				container.animate({
-					view:box3,
-					transition:Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT
-				});
+			if ( isAndroid ){
+				if ( selectedIndex%2 == 0){
+						var flipLeft = Ti.UI.create2DMatrix();
+						flipLeft = flipLeft.translate()
+					// Animate Box 4
+					box4.animate({
+						transform: Ti.UI.create2DMatrix({
+							
+						}), 
+						duration: 2000
+					}, function (){
+						
+					});
+				} else {
+					
+				}
+			} else {
+				
+				if (selectedIndex%2 == 0) {
+					container.animate({
+						view:box3,
+						transition:Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT
+					});
+				}
+				else {
+					container.animate({
+						view:box4,
+						transition:Ti.UI.iPhone.AnimationStyle.FLIP_FROM_RIGHT
+					});
+				}				
 			}
-			else {
-				container.animate({
-					view:box4,
-					transition:Ti.UI.iPhone.AnimationStyle.FLIP_FROM_RIGHT
-				});
-			}
+
 			selectedIndex++;
 		});
 		// **************************************************
 		// all done, return the window
-		return win;
-	};
-})();
-an.mainWin = an.ui.createApplicationWindow();
-an.mainWin.open();
+		return win;	
+	
+};
 
-
-
-
+module.exports = ApplicationWindow;
